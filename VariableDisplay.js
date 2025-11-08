@@ -5,14 +5,14 @@ function VariableDisplay(props) {
     const var1 = "Test";
     const var2 = 5;
     const var3 = false;
-    const var4 = ["YOU", "ARE", "THE", "WINNER!", <br></br>];
-    const var5 = { random: "You won the grand prize!"};
+    const var4 = { random: "You are our randomly selected winner!"};
+    const var5 = ["YOU", "ARE", "THE", "WINNER!", <br></br>];
 
     if (Math.random() < .4) {
         return (
             <div>
-                <h1>{var5.random}</h1>
-                {var4.map((item, index) => (
+                <h1><br></br>{var4.random}</h1>
+                {var5.map((item, index) => (
                     <p key={index}>{item}</p>
                 ))}
             </div>
