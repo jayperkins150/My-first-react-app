@@ -5,7 +5,11 @@ function VariableDisplay(props) {
     const var1 = "Test";
     const var2 = 5;
     const var3 = false;
-    const var4 = { random: "You are our randomly selected winner!"};
+    const var4 = { 
+        random: "You are our randomly selected winner!",
+        status: "Winner",
+        rank: 1,
+    };
     const var5 = ["YOU", "ARE", "THE", "WINNER!", <br></br>];
 
     if (Math.random() < .4) {
