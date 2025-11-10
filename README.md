@@ -1,9 +1,9 @@
 # My first React app
 
 This app is comprised of a single webpage that contains 3 components:<br>
-VariableDisplay.js in which I have practiced creating and using variables in JSX, with some variables that will display on refresh at random<br>
-ProfileCard.js in which I built a reusable profile card<br> 
-JobBoard.js in which returns the number of jobs at Microsoft running from a bot, and based on this the number of jobs expected next week<br>
+VariableDisplay.js in which I have practiced creating and using variables in JSX, with some variables that will display on refresh at random.<br>
+ProfileCard.js in which I built a reusable profile card.<br> 
+JobBoard.js in which returns the number of jobs at Microsoft running from a bot, and based on this the number of jobs expected next week.<br>
 
 ## Available Scripts
 
